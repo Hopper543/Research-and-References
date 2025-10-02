@@ -20,11 +20,11 @@ Data Acquisition Layer
 
 AI Processing Layer
 ├── Facial Emotion Pathway
-│ └── FER2013-trained model → TensorFlow Lite deployment
-├── Speech Emotion Pathway
-│ └── RAVDESS+TESS-trained model → ONNX Runtime deployment
+│   └── FER2013-trained model → TensorFlow Lite deployment
+├── Speech Emotion Pathway  
+│   └── RAVDESS+TESS-trained model → ONNX Runtime deployment
 └── Multimodal Fusion Engine
-└── Confidence-based decision fusion
+    └── Confidence-based decision fusion
 
 Output Layer
 ├── Emotional State Assessment
@@ -99,15 +99,15 @@ Output Layer
 ### 5.1 Technical Validation Metrics
 Primary Performance Metrics
 ├── Emotion Recognition Accuracy
-│ ├── Per-class precision/recall
-│ └── Overall weighted F1-score
+│   ├── Per-class precision/recall
+│   └── Overall weighted F1-score
 ├── Computational Efficiency
-│ ├── Inference latency measurements
-│ └── Memory usage profiling
+│   ├── Inference latency measurements
+│   └── Memory usage profiling
 └── System Reliability
-├── Uptime under continuous operation
-└── Failure recovery capability
-
+    ├── Uptime under continuous operation
+    └── Failure recovery capability
+    
 ### 5.2 Space-Relevance Testing
 
 **Environmental Simulation**
