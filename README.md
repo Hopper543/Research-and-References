@@ -1,22 +1,14 @@
-# MAITRI: Emotion Assistant for Astronaut Well-Being
+## Required Models:
+- `face_emotion_model.tflite` - Facial emotion recognition (TensorFlow Lite)
+- `speech_emotion_model.onnx` - Speech emotion classification (ONNX format)  
+- `fusion_model.pkl` - Multimodal fusion model (pickle format)
 
-## Introduction
-MAITRI is a multimodal AI assistant designed to monitor and support the psychological and physical well-being of astronauts during long-duration space missions. By analyzing facial expressions and speech, it provides adaptive, evidence-based interventions to help maintain emotional balance in isolated environments.
+## Training Datasets (References):
+- **FER2013**: https://www.kaggle.com/datasets/msambare/fer2013
+- **RAVDESS**: https://zenodo.org/record/1188976
+- **TESS**: https://tspace.library.utoronto.ca/handle/1807/24487
 
-## Problem Statement
-Astronauts on long-duration missions face isolation, disrupted sleep, and physical stress, which can trigger serious health issues. This project addresses the need for an AI companion that monitors astronauts via audio-video inputs, detects emotional or physical distress, and provides brief counseling or support to maintain their well-being.  
-(Source: [SIH 2025, ISRO](https://www.sih.gov.in))
+## Hardware Optimization:
+- **NVIDIA Jetson Nano**: https://developer.nvidia.com/embedded/jetson-nano
+- **Google Coral USB**: https://coral.ai/products/accelerator/
 
-## Proposed Solution
-- **Emotion Detection:** Detects human emotions accurately from voice tone and facial expressions.  
-- **Supportive Interaction:** Offers brief, evidence-based interventions or counseling messages.  
-- **Offline AI Model:** Operates standalone without requiring continuous internet connectivity.  
-- **Open Data Usage:** Leverages publicly available datasets for model training and real-time data for evaluation.  
-
-
-## Quick Start
-1. Install required Python packages listed in `requirements.txt`.  
-2. Download datasets as specified in `datasets/README.md`.  
-3. Run the demo:  
-```bash
-python src/main.py
