@@ -1,0 +1,121 @@
+# MAITRI: Research References & Technical Bibliography
+**Project ID 25175 | ISRO SIH 2025 | Astronaut Well-being Assistant**
+
+## 1. EMOTION RECOGNITION DATASETS
+
+### 1.1 Facial Expression Databases
+- **FER2013** (Facial Expression Recognition 2013)
+  - Source: Kaggle - https://www.kaggle.com/datasets/msambare/fer2013
+  - Content: 35,887 grayscale 48x48 pixel facial images
+  - Classes: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
+  - Citation: Goodfellow, I., et al. (2013)
+
+- **RAF-DB** (Real-world Affective Faces Database)
+  - Source: http://www.whdeng.cn/RAF/model1.html
+  - Content: ~30,000 facial images with diverse emotional labels
+  - Notable: Real-world conditions, multiple annotators
+
+### 1.2 Speech Emotion Databases
+- **RAVDESS** (Ryerson Audio-Visual Database)
+  - Source: https://zenodo.org/record/1188976
+  - Content: 24 professional actors, 7356 recordings
+  - Emotions: Neutral, Calm, Happy, Sad, Angry, Fearful, Disgust, Surprised
+  - Citation: Livingstone, S. R., & Russo, F. A. (2018)
+
+- **TESS** (Toronto Emotional Speech Set)
+  - Source: https://tspace.library.utoronto.ca/handle/1807/24487
+  - Content: 2800 audio recordings by 2 actresses
+  - Emotions: Anger, Disgust, Fear, Happiness, Pleasant Surprise, Sadness, Neutral
+  - Citation: Dupuis, K., & Pichora-Fuller, M. K. (2010)
+
+- **CREMA-D** (Crowd-sourced Emotional Multimodal Actors Dataset)
+  - Source: https://github.com/CheyneyComputerScience/CREMA-D
+  - Content: 7,442 audio-visual clips from 91 actors
+  - Emotions: Anger, Disgust, Fear, Happy, Neutral, Sad
+
+## 2. SPACE PSYCHOLOGY & ASTRONAUT HEALTH RESEARCH
+
+### 2.1 NASA Human Research Program
+- **Source**: https://www.nasa.gov/hrp
+- **Key Findings**:
+  - Isolation and confinement effects on mental health
+  - Sleep disruption in microgravity environments
+  - Team dynamics in long-duration missions
+  - Countermeasures for psychological stress
+
+### 2.2 Academic Research Papers
+- **"Psychological and Behavioral Health in Spaceflight"**
+  - Source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6305861/
+  - Authors: Kanas, N., & Manzey, D.
+  - Key Topics: Psychiatric issues, psychological selection, monitoring systems
+
+- **"Mental Health in Space"** - Journal of Space Safety Engineering
+  - Discusses: Emotional monitoring systems for astronauts
+  - Stress detection methodologies in confined environments
+
+- **"Autonomous Mental Health Monitoring for Astronauts"** - Acta Astronautica
+  - Covers: AI-based psychological support systems
+  - Real-time emotion recognition applications
+
+## 3. TECHNICAL FRAMEWORKS & HARDWARE
+
+### 3.1 Edge Computing Platforms
+- **NVIDIA Jetson Nano**
+  - Source: https://developer.nvidia.com/embedded/jetson-nano
+  - Application: On-board AI processing for space constraints
+  - Power: 5-10W, suitable for space station power budgets
+
+- **Google Coral USB Accelerator**
+  - Source: https://coral.ai/products/accelerator/
+  - Features: Edge TPU for high-speed ML inference
+  - Advantage: Low power consumption, offline capability
+
+### 3.2 Machine Learning Frameworks
+- **TensorFlow Lite**
+  - Source: https://www.tensorflow.org/lite
+  - Purpose: Deploy lightweight models on edge devices
+  - Space Application: Offline inference without ground station dependency
+
+- **ONNX Runtime**
+  - Source: https://onnx.ai/
+  - Advantage: Cross-platform model compatibility
+  - Use Case: Unified model deployment across different hardware
+
+## 4. MULTIMODAL FUSION RESEARCH
+
+### 4.1 Technical Approaches
+- **Early Fusion vs Late Fusion** methodologies
+- **Confidence-weighted decision making**
+- **Temporal integration of audio-visual signals**
+
+### 4.2 Relevant Studies
+- "Multimodal Emotion Recognition: A systematic review" - IEEE Access
+- "Audio-Visual Emotion Recognition for Human-Computer Interaction" - Springer
+- "Deep Learning for Multimodal Emotion Recognition" - Pattern Recognition Letters
+
+## 5. ETHICAL CONSIDERATIONS & SPACE CONSTRAINTS
+
+### 5.1 Privacy in Confined Environments
+- Continuous monitoring ethical implications
+- Data handling in isolated conditions
+- Psychological impact of constant surveillance
+
+### 5.2 Space-Grade Requirements
+- Radiation-hardened computing considerations
+- Power efficiency constraints
+- Thermal management in vacuum environments
+- Reliability and fault tolerance needs
+
+## 6. COUNSELING & INTERVENTION METHODOLOGIES
+
+### 6.1 Evidence-Based Psychological Support
+- Cognitive Behavioral Therapy (CBT) techniques
+- Mindfulness and meditation protocols
+- Crisis intervention strategies for isolated environments
+
+### 6.2 Human-Computer Interaction Research
+- Natural language generation for empathetic responses
+- Voice interface design for stress conditions
+- Cultural sensitivity in automated counseling
+
+---
