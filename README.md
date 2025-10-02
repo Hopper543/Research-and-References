@@ -13,8 +13,6 @@ Astronauts on long-duration missions face isolation, disrupted sleep, and physic
 - **Offline AI Model:** Operates standalone without requiring continuous internet connectivity.  
 - **Open Data Usage:** Leverages publicly available datasets for model training and real-time data for evaluation.  
 
-## Architecture Diagram
-![Architecture Diagram](docs/architecture.png)  
 
 ## Quick Start
 1. Install required Python packages listed in `requirements.txt`.  
