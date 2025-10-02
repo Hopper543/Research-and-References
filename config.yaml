@@ -1,0 +1,46 @@
+# MAITRI - Astronaut Well-being Assistant Configuration
+# Project ID: 25175 | ISRO SIH 2025
+
+model_paths:
+  face_model: "models/face_emotion_model.tflite"
+  speech_model: "models/speech_emotion_model.onnx" 
+  fusion_model: "models/fusion_model.pkl"
+
+# Audio Processing (Space Station Environment)
+audio:
+  sample_rate: 22050
+  chunk_duration: 3
+  channels: 1
+  silence_threshold: 0.01
+
+# Video Processing (Astronaut Monitoring)
+camera:
+  width: 640
+  height: 480
+  fps: 30
+  detection_confidence: 0.7
+
+# Emotion Classes (Psychological Well-being Metrics)
+emotions:
+  - "neutral"
+  - "happy" 
+  - "sad"
+  - "angry"
+  - "fearful"
+  - "disgusted"
+  - "surprised"
+
+# Supportive Interventions (Evidence-based Counseling)
+counseling_messages:
+  sad: "It's okay to feel this way. Would you like to talk about what's bothering you?"
+  angry: "Let's take a deep breath together. Inhale... exhale..."
+  fearful: "You're in a safe environment. Focus on your breathing."
+  happy: "Great to see you in good spirits! Keep up the positive energy."
+  neutral: "How are you feeling today? I'm here if you want to talk."
+
+# Performance Settings (Offline Operation)
+performance:
+  fusion_weight_face: 0.6
+  fusion_weight_speech: 0.4
+  min_confidence: 0.6
+  update_interval: 5
